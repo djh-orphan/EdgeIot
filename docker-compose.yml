@@ -1,0 +1,6 @@
+version: '3'
+services: 
+  task2: 
+    image: task2:latest
+    container_name: task2_container
+    network_mode: host
